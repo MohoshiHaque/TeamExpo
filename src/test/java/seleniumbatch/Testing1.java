@@ -28,7 +28,7 @@ public class Testing1 {
 	@Test(priority=1)
 	public void TestTitle() {
 		
-		String ExpectedTitle = "Swag Labs";
+		String ExpectedTitle = "Swag Lab";
 		String ActualTitle = driver.getTitle();
 		Assert.assertEquals(ActualTitle, ExpectedTitle,"Code Run");
 		
